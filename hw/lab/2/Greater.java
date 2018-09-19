@@ -16,4 +16,6 @@ public class Greater{
 		System.out.print("a >= b: " + Boolean(a >= b));
 		System.out.print("a != b: " + Boolean(a != b));
 		System.out.print("a == b: " + Boolean(a == b));
+	}
+}
 		

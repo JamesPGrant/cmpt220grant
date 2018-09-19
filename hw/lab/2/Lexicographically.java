@@ -6,3 +6,4 @@ public class Lexicographically{
 		
 		System.out.print("Enter an integer:");
 		int number = input.nextInt();
+	

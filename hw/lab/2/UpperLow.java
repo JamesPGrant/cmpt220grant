@@ -10,7 +10,7 @@ public class Upperlower{
 		System.out.print("Enter the upper limit:");
 		int b = input.nextInt();
 		
-		int random = Math.random() * (b - a) + 1;
+		int random = (int)(Math.random() * (b - a)) + 1;
 		System.out.println("Your random number is: " + random);
 	
 	}
