@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Where did you call the method?
 public class DoubleValue {
 	public static void main(String[]args) {
 		@SuppressWarnings("resource")
