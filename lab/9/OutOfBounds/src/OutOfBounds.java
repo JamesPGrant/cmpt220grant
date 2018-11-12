@@ -19,6 +19,7 @@ public class OutOfBounds {
 		System.out.println(Arrays.toString(ints));
 		System.out.print(main1(args));
 	}
+	// JA: Where is the exception?
 	public static int main1(String[]args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the index of the integer: ");
