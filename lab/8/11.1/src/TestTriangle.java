@@ -27,7 +27,7 @@ public class TestTriangle {
 		System.out.print("filled?: "+ triangle.isFilled());
 		System.out.print("\n");
 	}
-	catch(NullPointerException e){
+	catch(IllegalTriangleException e)
 	}
 
 	}

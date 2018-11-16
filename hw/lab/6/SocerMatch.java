@@ -18,8 +18,9 @@ public int[] getHomePlayers() {
 	return homePlayers;
 }
 
-public void addHomePlayers(int homePlayers) {
-	for(int i =0; i < homePlayers;i++);
+public void addHomePlayers(Player newPlayer) {
+	getHomePlayers()[numPlayers] = newPlayer;
+        numPlayers++;
 }
 
 public void addVisitorPlayers(int visitorPlayers) {
